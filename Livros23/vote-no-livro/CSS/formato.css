@@ -1,0 +1,126 @@
+@CHARSET "ISO-8859-1";
+.content {
+    width:960px;
+    background: #F0F0F0;
+    border: 1px solid #CCC;
+    height: 420px;
+    margin: 20px auto;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  width:15%;
+  height:50px;
+  border-radius: 0px;
+  font-family: Satisfy, cursive;
+  font:oblique;
+  color: #ffffff;
+  font-size: 16px;
+  background: #000000;
+  text-align:center;
+  float:left;
+}
+
+.btn:hover {
+  background: #ffffff;
+  color: #000000;
+  text-decoration: none;
+}
+
+.collumn1 {
+    width:50%;
+    background: #F0F0F0;
+    border: 1px solid #CCC;
+    height: 420px;
+    word-wrap: break-word;
+     float: left;
+     position: relative;
+    
+}
+.collumn1:hover
+{
+	background: #ffffff;
+}
+
+.Votacao {
+    width:50%;
+    background: #F0F0F0;
+    border: 1px solid #CCC;
+    height: 410px;
+    word-wrap: break-word;
+    float: left;
+    position: relative;
+    
+}
+
+.subcollumn1 {
+    width:50%;
+    background: #F0F0F0;
+    height: 320px;
+    word-wrap: break-word;
+     float: left;
+     position: relative;
+    
+}
+.subcollumn2 {
+    width:48%;
+    background: #F0F0F0;
+    height: 280px;
+    word-wrap: break-word;
+     float: right;
+     position: relative;
+    
+}
+
+
+.collumn2 {
+    width:49.4%;
+    background: #F0F0F0;
+    border: 1px solid #CCC;
+    height: 420px;
+    word-wrap: break-word;
+    float: right;
+    position: relative;
+}
+.collumn2:hover
+{
+	background: #ffffff;
+}
+
+
+.header {
+    height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+    font-family: Satisfy, cursive;
+	font-weight:normal;
+	font-size:32px;
+	padding-top: 10px;
+}
+.footer {
+    height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+}
+.shrink img {
+  height: 250px;
+  width: 200px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+          position: relative;
+}
+ 
+.shrink img:hover {
+  width: 250px;
+  height: 300px;
+  position: relative;
+}
